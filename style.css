@@ -1,14 +1,18 @@
 body {
-  background-color: #212121; /* dark blue background */
+  background-color: #FEFF9F; 
   font-family: 'Open Sans', sans-serif;
+  margin: 0; 
+  padding: 0; 
+  height: 100vh; 
+  width: 100vw;
 }
 
 .starry-night {
   position: relative;
   height: 100vh;
   width: 100vw;
-  background-image: radial-gradient(farthest-corner at 50% 50%, #444, #212121);
-  background-size: 200px 200px;
+  background-image: url('https://picsum.photos/2000/1000');
+  background-size: cover; 
   animation: starry-night 10s infinite;
 }
 
@@ -18,7 +22,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #fff;
+  color: #E78F81;
 }
 
 h1 {
