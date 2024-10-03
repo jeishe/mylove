@@ -1,0 +1,18 @@
+/* Add animation styles */
+.envelope {
+  transition: transform 0.5s ease-in-out;
+}
+
+.envelope.open {
+  transform: rotateY(180deg);
+}
+
+.envelope-back {
+  display: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.envelope-back.show {
+  display: block;
+  opacity: 1;
+}
