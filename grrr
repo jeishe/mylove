@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Love Letter in the Stars</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="starry-night">
+    <div class="letter-container">
+      <h1>Dear [Girlfriend's Name],</h1>
+      <p>[Your Personalized Message]</p>
+      <p>Happy Birthday to the love of my life!</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
