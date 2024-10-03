@@ -1,0 +1,42 @@
+body {
+  background-color: #212121; /* dark blue background */
+  font-family: 'Open Sans', sans-serif;
+}
+
+.starry-night {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: radial-gradient(farthest-corner at 50% 50%, #444, #212121);
+  background-size: 200px 200px;
+  animation: starry-night 10s infinite;
+}
+
+.letter-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+@keyframes starry-night {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
